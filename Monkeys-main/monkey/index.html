@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> ? </title>
+</head>
+<body>
+
+	<div id="menu">
+		<button id="close_options" onclick="close_menu()" style="cursor: pointer;"> X </button>
+
+		<form>
+			<label>
+				<input onclick="check(0)" class="checkboxS" type="checkbox" checked>
+				<span class="text_checkbox">Cor de fundo aleatória</span>
+			</label>
+
+			<label style="margin-right: 10%">
+				<input onclick="check(1)" class="checkboxS" type="checkbox" style="margin-left: 4.5%;">
+				<span class="text_checkbox" style="margin-right: 0%;">Cor de fundo sólida</span> <input id="cS" onclick="change_solid()" style="margin-left: 1%; cursor: pointer; width: 3em; height: 3em; background-color: #2C497F; border: 2px solid white;" readonly>
+			</label>
+
+			<label>
+				<input onclick="check(2)" class="checkboxS" type="checkbox" style="margin-left: 10.2%">
+				<span class="text_checkbox">Cor de fundo personalizada</span>
+				<br>
+				<span style="vertical-align: middle; color: white; font-size: 2em; margin-right: 1%;">#</span><input id="color_custom" type="text" maxlength="6" style="vertical-align: middle; width: 13%; height: 3%; padding-left: 1%; padding-right: 1%; font-size: 1.5em; margin-right: 28%;">
+				<br><br>
+			</label>
+
+			<label style="margin-right: 8%">
+				<input onclick="check(3)" class="checkboxS" type="checkbox" checked>
+				<span class="text_checkbox" style="margin-right:12%;"> Frases aleatórias </span>
+			</label>
+
+			<label style="margin-right: 43%">
+				<input onclick="check(4)" class="checkboxS" type="checkbox" style="margin-left: 23%;">
+				<span class="text_checkbox">Frase fixa</span>
+				<input type="text" id="cT" style="cursor: pointer; width: 98.5%; padding: 1%; padding-left: 2%; padding-right: 1%; font-size: 2em; margin-left: 35.5%; margin-bottom: 2%; color: grey" readonly onclick="change_text()" value="Te amo macaquinho <3">
+			</label>
+
+			<label style="margin-right: 7.4%">
+				<input onclick="check(5)" class="checkboxS" type="checkbox">
+				<span class="text_checkbox" style="margin-right: 5.5%;"> Frase personalizada </span>
+				<input type="text" id="frase_custom" style="width: 60%; padding-left: 1%; padding: 1%; padding-right: 1%; font-size: 2em; margin-left: 5.5%;">
+			</label>
+		</form>
+
+	</div>
+
+	<div id="text"> Te amo macaquinho <3 </div>
+	<img id="monkey_img">
+	<button id="generate" onclick="main()" style="cursor: pointer;"> GERAR MACAQUINHO </button>
+
+	<br>
+	<button id="options" onclick="open_menu()" style="cursor: pointer;"> + </button>
+
+	<link rel="stylesheet" type="text/css" href="config.css">
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

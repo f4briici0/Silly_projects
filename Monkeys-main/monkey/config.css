@@ -1,0 +1,118 @@
+body{
+	background-color: #2C497F;
+	text-align: center;
+}
+
+#text{
+	margin-top: 10%;
+	margin-bottom: 2%;
+		
+	font-size: 2em;
+
+	color: white;
+
+}
+
+#monkey_img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+
+	border: dashed yellow 2px;
+	padding: 0.3%;
+}
+
+#generate{
+	margin-top: 2%;
+	font-size: 1.5em;
+	padding:  1%;
+	border-radius: 50px;
+}
+
+#options{
+	margin-top: 5%;
+	font-size: 2em;
+	border-radius: 130px;
+
+	padding: 0.5%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+/**/
+
+#close_options{
+	margin-top: 3%;
+	font-size: 2em;
+	border-radius: 130px;
+
+	padding: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+
+	margin-bottom: 12%;
+}
+
+#menu{
+	display: none;
+	position: absolute;
+
+	left:0;
+  	right:0;
+	margin-left: auto;
+  	margin-right: auto;
+
+  	top: 5%;
+
+	background-color: #AD2831;
+	width: 50em;
+	height: 55em;
+
+	border-radius: 50px;
+	border: solid white 5px;
+}
+
+.checkboxS{
+	margin-bottom: 1%;
+	margin-right: 1%;
+	width: 3em;
+	height: 3em;
+}
+
+.text_checkbox{
+	color:  white;
+	font-size: 2em;
+
+	margin-right: 7%;
+}
+
+input[type=checkbox]{
+	vertical-align: middle;
+	position: relative;
+	bottom: 1px;
+}
+          
+label{
+	display: block;
+}
+
+
+/**/
+
+
+
+@font-face{
+	font-family: gotham;
+	src: url("ghotam.ttf");
+}
+
+
+*{
+	font-family: gotham;
+	padding: 0px;
+	border: none;
+	margin: 0px;
+	outline: none;
+	font-weight: 300;
+}
