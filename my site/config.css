@@ -1,0 +1,24 @@
+body{
+	background-color: #060D0F;
+	color: white;
+}
+
+@font-face{
+	font-family: AnonymousPro;
+	src: url("AnonymousPro.ttf");
+}
+
+@font-face{
+	font-family: Inter;
+	src: url("Inter.ttf");
+}
+
+.name{
+	width: 8%;
+	margin: 3% auto 0 auto;
+	font-size: 3em;
+	font-family: "AnonymousPro";
+	color: #cebc7d;
+	padding: 1%;
+	border-style: dashed;
+}
